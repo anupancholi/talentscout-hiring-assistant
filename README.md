@@ -25,10 +25,9 @@ TalentScout is an intelligent hiring assistant chatbot for tech recruitment agen
    ```
 
 ## Usage Guide
-1. Open the app in your browser (default: [http://localhost:8501](http://localhost:8501)).
-2. Follow the chatbot prompts to enter candidate info step by step.
-3. At the end, paste your OpenAI API key when prompted (or set via env var/secrets) to generate tailored technical questions based on the tech stack you list.
-4. Exit/chat log and persona are fully visible as you interact.
+1. Follow the chatbot prompts to enter candidate info step by step.
+2. At the end, paste your OpenAI API key when prompted (or set via env var/secrets) to generate tailored technical questions based on the tech stack you list.
+3. Exit/chat log and persona are fully visible as you interact.
 
 ## Technical Details
 - **Frontend:** Python/Streamlit
@@ -47,19 +46,15 @@ TalentScout is an intelligent hiring assistant chatbot for tech recruitment agen
 
 ## Data Handling & Privacy
 - **No candidate PII is saved or transmitted to any backend.** Everything is processed in memory in the session only.
-- If deploying: ensure any logs or error outputs do not store PII.
-- All generated data is anonymized by default for demo/testing.
+
 - **API keys** should be managed via Streamlit secrets or environment variables—not put in code.
 
 ## Challenges & Solutions
 - **Multi-tech-stack prompt design:** Handling both breadth (many techs) and depth (good quality per tech) in a single prompt is a challenge; carefully tuned prompts and GPT output parsing help maximize relevant results.
-- **OpenAI rate limits and error handling:** Added checks for missing package/API, useful errors for developer/UX clarity.
-- **Session & flow UX:** Managing stepwise conversation and log within Streamlit required careful state/session handling.
 
-## Version Control & Contributing
-- All source tracked in git.
-- Commits follow clear, descriptive messages.
-- PRs and issues welcome!
+
+
+
 
 ## License
-MIT (or specify your own as needed)
+Created by Anurodh
