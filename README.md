@@ -18,6 +18,7 @@ TalentScout is an intelligent hiring assistant chatbot for tech recruitment agen
 2. **Install dependencies:**
    ```sh
    pip install streamlit openai
+   pip install requirments.txt
    ```
 3. **Run the app:**
    ```sh
