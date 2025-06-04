@@ -168,7 +168,7 @@ if not ended and field:
             st.session_state.ended = True
             st.session_state.step = len(questions)
             st.session_state['user_input'] = ''
-            st.rerun()
+
         valid = True
         if field == "Email Address" and not is_valid_email(user_input):
             render_bubble("Please enter a valid email address.", who="bot")
@@ -187,7 +187,6 @@ if not ended and field:
                     (questions[current_step+1][1], "bot"))
             st.session_state.step += 1
             st.session_state['user_input'] = ''
-            st.rerun()
 
     st.markdown("""
         <form class="ts-footer" onsubmit="return false;">
