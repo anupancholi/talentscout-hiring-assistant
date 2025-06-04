@@ -20,7 +20,7 @@ def load_openai_api_key():
     else:
         return ""
 
-# ---- Custom CSS for UI like provided screenshot ----
+# ---- Custom CSS for UI  ----
 
 
 def inject_custom_css():
