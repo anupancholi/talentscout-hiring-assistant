@@ -1,5 +1,7 @@
 # TalentScout Hiring Assistant Chatbot
 #[[Link to the website](https://talentscout-hiring-assistant.streamlit.app)]
+
+#[[DEMO](https://www.loom.com/share/6dbf10f4c54a44d19c86d2dd174ff85d?sid=b8b7b69c-a199-4ee1-b4d4-8b68b02626e1)]
 ## Project Overview
 TalentScout is an intelligent hiring assistant chatbot for tech recruitment agencies. It collects essential candidate details and generates tailored technical interview questions based on a candidate's declared tech stack using OpenAI GPT, all via a simple web chat interface.
 
